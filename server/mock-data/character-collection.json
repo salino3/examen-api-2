@@ -1,0 +1,355 @@
+{
+  "info": {
+    "count": 826,
+    "pages": 42,
+    "next": "https://rickandmortyapi.com/api/character?page=2",
+    "prev": null
+  },
+  "results": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "bestSentence": "Try 3 again"
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "bestSentence": "I'm Morty Smith"
+    },
+    {
+      "id": 3,
+      "name": "Summer Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Female",
+      "bestSentence": "Hola Soy Summer"
+    },
+    {
+      "id": 4,
+      "name": "Beth Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Female",
+      "bestSentence": "The best sentence Beth"
+    },
+    {
+      "id": 5,
+      "name": "Jerry Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "bestSentence": "Hola otra vez"
+    },
+    {
+      "id": 6,
+      "name": "Abadango Cluster Princess",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+      "species": "Alien",
+      "type": "",
+      "gender": "Female",
+      "bestSentence": "Probando..."
+    },
+    {
+      "id": 7,
+      "name": "Abradolf Lincler",
+      "status": "unknown",
+      "species": "Human",
+      "type": "Genetic experiment",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (Replacement Dimension)",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "location": {
+        "name": "Testicle Monster Dimension",
+        "url": "https://rickandmortyapi.com/api/location/21"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/10",
+        "https://rickandmortyapi.com/api/episode/11"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/7",
+      "created": "2017-11-04T19:59:20.523Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 8,
+      "name": "Adjudicator Rick",
+      "status": "Dead",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Citadel of Ricks",
+        "url": "https://rickandmortyapi.com/api/location/3"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/28"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/8",
+      "created": "2017-11-04T20:03:34.737Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 9,
+      "name": "Agency Director",
+      "status": "Dead",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (Replacement Dimension)",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "location": {
+        "name": "Earth (Replacement Dimension)",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/24"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/9",
+      "created": "2017-11-04T20:06:54.976Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 10,
+      "name": "Alan Rails",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+      "species": "Human",
+      "type": "Superhuman (Ghost trains summoner)",
+      "gender": "Male",
+      "bestSentence": "Hola Hola"
+    },
+    {
+      "id": 11,
+      "name": "Albert Einstein",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "bestSentence": "Albert Prueba 2"
+    },
+    {
+      "id": 12,
+      "name": "Alexander",
+      "status": "Dead",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "url": "https://rickandmortyapi.com/api/location/1"
+      },
+      "location": {
+        "name": "Anatomy Park",
+        "url": "https://rickandmortyapi.com/api/location/5"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/3"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/12",
+      "created": "2017-11-04T20:32:33.144Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 13,
+      "name": "Alien Googah",
+      "status": "unknown",
+      "species": "Alien",
+      "type": "",
+      "gender": "unknown",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Earth (Replacement Dimension)",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/31"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/13",
+      "created": "2017-11-04T20:33:30.779Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 14,
+      "name": "Alien Morty",
+      "status": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+      "species": "Alien",
+      "type": "",
+      "gender": "Male",
+      "bestSentence": "Prueba Alien Morty"
+    },
+    {
+      "id": 15,
+      "name": "Alien Rick",
+      "status": "unknown",
+      "species": "Alien",
+      "type": "",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Citadel of Ricks",
+        "url": "https://rickandmortyapi.com/api/location/3"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/10"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/15",
+      "created": "2017-11-04T20:56:13.215Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 16,
+      "name": "Amish Cyborg",
+      "status": "Dead",
+      "species": "Alien",
+      "type": "Parasite",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Earth (Replacement Dimension)",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/15"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/16",
+      "created": "2017-11-04T21:12:45.235Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 17,
+      "name": "Annie",
+      "status": "Alive",
+      "species": "Human",
+      "type": "",
+      "gender": "Female",
+      "origin": {
+        "name": "Earth (C-137)",
+        "url": "https://rickandmortyapi.com/api/location/1"
+      },
+      "location": {
+        "name": "Anatomy Park",
+        "url": "https://rickandmortyapi.com/api/location/5"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/3"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/17",
+      "created": "2017-11-04T22:21:24.481Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 18,
+      "name": "Antenna Morty",
+      "status": "Alive",
+      "species": "Human",
+      "type": "Human with antennae",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Citadel of Ricks",
+        "url": "https://rickandmortyapi.com/api/location/3"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/10",
+        "https://rickandmortyapi.com/api/episode/28"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/18",
+      "created": "2017-11-04T22:25:29.008Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 19,
+      "name": "Antenna Rick",
+      "status": "unknown",
+      "species": "Human",
+      "type": "Human with antennae",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "unknown",
+        "url": ""
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/10"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/19",
+      "created": "2017-11-04T22:28:13.756Z",
+      "bestSentence": ""
+    },
+    {
+      "id": 20,
+      "name": "Ants in my Eyes Johnson",
+      "status": "unknown",
+      "species": "Human",
+      "type": "Human with ants in his eyes",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Interdimensional Cable",
+        "url": "https://rickandmortyapi.com/api/location/6"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/8"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/20",
+      "created": "2017-11-04T22:34:53.659Z",
+      "bestSentence": ""
+    }
+  ]
+}

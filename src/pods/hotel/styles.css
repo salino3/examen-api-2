@@ -1,0 +1,23 @@
+
+.boxInfoCharacter{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.secondBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+}
+
+.box4{
+    margin-top: 3em;
+      display: grid;
+      grid-template-rows: repeat(3, 20%)
+}
+
+img {
+     width: 30em;
+}
