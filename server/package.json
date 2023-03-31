@@ -4,11 +4,13 @@
   "description": "Hotel API",
   "main": "index.js",
   "scripts": {
-    "mock-server": "json-server --routes ./config/routes.json --watch mock-data/character-collection.json --middlewares ./config/hotel.middleware.js --no-delete-cascade"
+
+    "mock-server": "json-server --routes ./config/routes.json --watch mock-data/character-collection.json --middlewares ./config/character.middleware.js --no-delete-cascade"
   },
   "author": "Lemoncode",
   "license": "MIT",
   "dependencies": {
+    "json-graphql-server": "^2.3.2",
     "json-server": "^0.16.1"
   }
 }

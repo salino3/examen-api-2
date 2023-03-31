@@ -18,14 +18,21 @@ export const MoreInfo: React.FC = () => {
       loadCharacterCollection();
     }, []);
 
+
 React.useEffect(() => {
-  const foundCharacter = charactersCollection.find(
-    (item) => item.id === Number(id)
-  );
-    setCharacter(foundCharacter);
+  if (charactersCollection && charactersCollection.length > 0) {
+    const foundCharacter = charactersCollection.find(
+      (item) => item.id === id
+    );
+    if (foundCharacter) {
+      setCharacter(foundCharacter);
+    }
+  }
 }, [charactersCollection, id]);
 
 
+console.log("prueba 1", charactersCollection, {id})
+console.log("character", character)
 
   return (
     <AppLayout>

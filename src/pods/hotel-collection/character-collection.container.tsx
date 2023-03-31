@@ -3,9 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import { linkRoutes } from 'core/router';
 import { useCharactersCollection } from './character-collection.hook';
 import { CharacterCollectionComponent } from './character-collection.component';
+import { useQuery } from '@apollo/client';
+import { GET_ALL } from '../../../server/Graphql/schema';
+
+
 
 export const CharacterCollectionContainer = () => {
   
+   const { loading, error, data } = useQuery(GET_ALL);
+
+
   let { charactersCollection, loadCharacterCollection } = useCharactersCollection();
   const navigate = useNavigate();
 
@@ -33,6 +40,8 @@ export const CharacterCollectionContainer = () => {
    charactersCollection = charactersCollection.filter((c) => c.id !== id);
    return true;
  };
+
+ 
   return (
       <CharacterCollectionComponent
         onEdit={handleEdit}

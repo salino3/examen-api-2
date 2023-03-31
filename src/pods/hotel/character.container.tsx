@@ -30,6 +30,7 @@ export const CharacterContainer: React.FunctionComponent = (props) => {
     }
   }, [charactersCollection, id]);
 
+  console.log('prueba', charactersCollection);
   return (
     <>
       <CharacterComponent character={character} />
