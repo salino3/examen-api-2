@@ -11,5 +11,4 @@ export const mapCharacterFromApiToVm = (
   species: character.species,
   type: character.type,
   gender: character.gender,
-  bestSentence: character?.bestSentence,
 });

@@ -31,8 +31,6 @@ React.useEffect(() => {
 }, [charactersCollection, id]);
 
 
-console.log("prueba 1", charactersCollection, {id})
-console.log("character", character)
 
   return (
     <AppLayout>

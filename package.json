@@ -4,16 +4,14 @@
   "description": "Rest API demos",
   "main": "index.js",
   "scripts": {
-    "start": "run-p -l type-check:watch start:dev start:server",
+    "start": "run-p -l type-check:watch start:dev",
     "start:dev": "webpack serve --config ./config/webpack/dev.js",
-    "start:server": "cd server && npm run mock-server",
     "build": "run-p -l type-check build:prod",
     "build:prod": "npm run clean && webpack --config ./config/webpack/prod.js",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
-    "clean": "rimraf dist",
-    "postinstall": "cd ./server && npm install"
-  },
+    "clean": "rimraf dist"
+    },
   "author": "Lemoncode",
   "license": "MIT",
   "dependencies": {

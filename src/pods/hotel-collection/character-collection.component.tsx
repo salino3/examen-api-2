@@ -6,16 +6,11 @@ import { Character } from './api';
 
 interface Props {
   characterCollections: Character[];
-  onEdit: (id: string | number) => void;
-  onDelete: (id: string | number) => void;
 }
 
 
-
 export const CharacterCollectionComponent: React.FunctionComponent<Props> = ( props) => {
-
-
-  const { characterCollections, onEdit, onDelete } = props;
+  const { characterCollections } = props;
 
 
   return (
@@ -27,8 +22,7 @@ export const CharacterCollectionComponent: React.FunctionComponent<Props> = ( pr
             <li key={character.id}>
               <CharacterCard
                 character={character}
-                onEdit={onEdit}
-                onDelete={onDelete}
+    
               />
             </li>
           ))}

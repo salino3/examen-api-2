@@ -7,5 +7,4 @@ export interface CharacterEntityVm {
   type?: string;
   gender?: string;
   image?: string;
-  bestSentence?: string;
 }

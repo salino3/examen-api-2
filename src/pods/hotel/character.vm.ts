@@ -10,7 +10,3 @@ export interface Location {
 }
 
 
-
- export const createEmptyInfo = (): any  => ({
-  bestSentences: ""
-})
